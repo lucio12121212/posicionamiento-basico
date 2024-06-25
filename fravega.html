@@ -7,65 +7,309 @@
     <title>Document</title>
     <style>
         body {
-            display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
         }
 
         .container {
             display: flex;
+            margin-left: 400px;
+            margin-right: 400px;
+            gap: 30px;
+            background-color: rgb(233, 239, 245);
+            padding: 19px;
+            border-radius: 15px;
+            justify-content: center;
+
         }
 
         .fondo {
-            width: 150px;
-            height: 150px;
-            background-color: blue;
+            width: 450px;
+            height: 230px;
+            background-color: #f72585
+        }
+
+        .fondo1 {
+            width: 450px;
+            height: 230px;
+            background-color: rgb(134, 46, 134);
+
+
         }
 
         .box {
             display: flex;
-            
+            width: 450px;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+
+
         }
-        .imagen{
+
+        .box1 {
+            display: flex;
+            width: 450px;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .imagen {
             width: 120px;
             height: 100px;
+            position: absolute;
+            left: 100px;
+            top: 70px;
         }
-        .contenido{
+
+        .contenido {
+            margin: 0px;
+            background-color: rgb(255, 255, 255);
+            padding-left: 40px;
+        }
+
+        .contenido1 {
+            background-color: rgb(255, 255, 255);
+            padding-left: 40px;
+
+        }
+
+        p {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .boton {
+            padding: 10px;
+            border-style: groove;
+            border-color: #f72585;
+            text-shadow: 10px;
+            background-color: transparent;
+            color: #f72585;
+            border-style: inset;
+        }
+
+        .boton1 {
+            padding: 10px;
+            border-style: groove;
+            border-color: rgb(134, 46, 134);
+            text-shadow: 10px;
+            background-color: transparent;
+            color: rgb(134, 46, 134);
+        }
+
+        h2 {
+
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .span {
+            background-color: #f72585;
+            padding: 5px;
+        }
+
+        .span1 {
+            background-color: rgb(134, 46, 134);
+            padding: 5px;
+        }
+
+        .picture {
+            width: 650px;
+            margin: 0px;
+
+
+
+
+        }
+
+        .parrafo {
+            margin: 0px;
+            background-color: white;
+            padding-bottom: 15px;
+
+
+
+        }
+
+        .caja {
+            background-color: lightgray;
+        
+        }
+
+        .container2 {
             display: flex;
-        }
+            padding: 15px;
+            border: 15px solid #e9eff5;
+            background-color: #e9eff5;
+            gap: 60px;
+            margin: 50px;
+            margin-right: 200px;
+            border-radius: 15px;
+            
+            .pedro {
+                background-color: white;
+            }
+
+            .padre {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .descuento {
+                background-color: #f72585;
+                position: absolute;
+                right: 2220px;
+                height: 90px;
+                width: 80px;
+
+            }
+
+            .disp {
+                display: flex;
+                color: white;
+                gap: 0px;
+            }
+
+            .lucio {
+                font-size: 35px;
+                padding-left: 10px;
+                padding-top: 2px;
+                padding-right: 2px;
+                font-style: italic;
+            }
+            .porciento{
+                padding-top: 5px;
+                padding-right: 20px;
+                font-style: italic;
+                
+            }
+            .messi{
+                font-size: 30px;
+                margin: 0px;
+            }
+            .hasta{
+                color: white;
+                font-style: italic;
+            }
+            .descuento1{
+                background-color: #3bad9e;
+                position: absolute;
+                right: 1500px;
+                height: 90px;
+                width: 80px;
+
+            }
+            .descuento3{
+                background-color: #001aff;
+                position: absolute;
+                right: 795px;
+                height: 90px;
+                width: 80px;
 
 
+
+            }
+            
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="box">
-            <div class="fondo">
-
-            </div>
-            <div class="contenido">
+    <div class="padre">
+        <div class="container">
+            <div class="box">
                 <img src="pc-removebg-preview.png" alt="pc" class="imagen">
-                <h2><a href="">PC Gamer en Fravega</a></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, temporibus?</p>
-                <div><button>ver más</button></div>
-                
-                
-            </div>
-        </div>
+                <div class="fondo">
 
-        <div class="box">
-            <div class="fondo">
+                </div>
+                <div class="contenido">
 
+                    <h2><span class="span"><a href="">PC GAMERS</a></span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, temporibus?</p>
+                    <div><button class="boton">ver más</button></div>
+
+
+                </div>
             </div>
-            <div class="contenido">
-                <h2><a href="">PLAY 5</a></h2>
+
+            <div class="box1">
                 <img src="PS5.png" alt="PLAY" class="imagen">
-                <div><button>ver más</button></div>
+                <div class="fondo1">
+
+                </div>
+                <div class="contenido1">
+                    <h2><span class="span1"><a href="">PLAY 5</a></span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatem nisi sequi amet.</p>
+                    <div><button class="boton1">ver más</button></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="caja">
+                <div class="descuento">
+                    <div class="hasta"><strong>HASTA</strong></div>
+                    <div class="disp">
+                        <div class="lucio">25</div>
+                        <div class="porciento">
+                            <div class="messi"><strong>%</strong></div>
+                            <div><strong>OFF</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pedro"><img src="./s24.jpg" alt="celular" class="picture"></div>
+                <div>
+                    <p class="parrafo">Lorem ipsum amet consectetur. Voluptatem incidunt hic recusandae? Odio suscipit
+                        illo</p>
+                </div>
+            </div>
+            <div class="caja2">
+                <div class="descuento1">
+                    <div class="hasta"><strong>HASTA</strong></div>
+                    <div class="disp">
+                        <div class="lucio">25</div>
+                        <div class="porciento">
+                            <div class="messi"><strong>%</strong></div>
+                            <div><strong>OFF</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pedro"><img src="./s24.jpg" alt="celular" class="picture"></div>
+                <div>
+                    <p class="parrafo">Lorem ipsum amet consectetur. Voluptatem incidunt hic recusandae? Odio suscipit
+                        illo</p>
+                </div>
+            </div>
+            <div class="caja3">
+                <div class="descuento3">
+                    <div class="hasta"><strong>HASTA</strong></div>
+                    <div class="disp">
+                        <div class="lucio">25</div>
+                        <div class="porciento">
+                            <div class="messi"><strong>%</strong></div>
+                            <div><strong>OFF</strong></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pedro"><img src="./s24.jpg" alt="celular" class="picture"></div>
+                <div>
+                    <p class="parrafo">Lorem ipsum amet consectetur. Voluptatem incidunt hic recusandae? Odio suscipit
+                        illo</p>
+                </div>
             </div>
         </div>
 
-    </div>
+
+
+
 </body>
+</div>
 
 </html>
